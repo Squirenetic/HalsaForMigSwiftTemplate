@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<clientSettings>
+    <!--
+     See HVClientSettings.h or m for a list configurable settings
+     -->
+    <!--
+     CHBase Application ID
+     This is the app ID for the default sample Hello World application.
+     Create your own application at http://swedenaccv2.dev.grcdemo.com
+     -->
+    <masterAppID>8c859baa-a071-4eee-afd6-90475dc6ef80</masterAppID>
+    <!--Application name -->
+    <appName>HealthForMeTestingGrounds</appName>
+    <isMultiInstanceAware>false</isMultiInstanceAware>
+    <environment>
+        <name>PPE</name>
+        <friendlyName>CHBase Pre-Production</friendlyName>
+        <!--
+         Url for CHBase service calls - set up for Pre-Production below
+         -->
+        <serviceUrl>https://api.ppe.halsaformig.se/platform/wildcat.ashx</serviceUrl>
+        <!--
+         CHBase Shell - used during app provisioning on the device
+         -->
+        <shellUrl>https://sh.ppe.halsaformig.se</shellUrl>
+    </environment>
+</clientSettings>
